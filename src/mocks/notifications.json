@@ -1,0 +1,68 @@
+[
+  {
+    "id": "n001",
+    "type": "approval_required",
+    "priority": "high",
+    "title": "Approval Required",
+    "message": "PR-2024-002 Cloud Infrastructure Upgrade requires your approval",
+    "module": "procurement",
+    "resourceId": "PR-2024-002",
+    "read": false,
+    "createdAt": "2024-01-15T08:30:00Z"
+  },
+  {
+    "id": "n002",
+    "type": "risk_alert",
+    "priority": "critical",
+    "title": "Critical Risk Identified",
+    "message": "Vendor Meridian Consulting has been flagged as high financial risk",
+    "module": "risk",
+    "resourceId": "R-001",
+    "read": false,
+    "createdAt": "2024-01-15T07:45:00Z"
+  },
+  {
+    "id": "n003",
+    "type": "compliance_warning",
+    "priority": "high",
+    "title": "Compliance Document Expired",
+    "message": "GDPR documentation for Global Logistics Partners has expired",
+    "module": "compliance",
+    "resourceId": "v002",
+    "read": false,
+    "createdAt": "2024-01-14T16:00:00Z"
+  },
+  {
+    "id": "n004",
+    "type": "request_approved",
+    "priority": "normal",
+    "title": "Request Approved",
+    "message": "Your procurement request PR-2024-001 has been approved",
+    "module": "procurement",
+    "resourceId": "PR-2024-001",
+    "read": true,
+    "createdAt": "2024-01-10T10:35:00Z"
+  },
+  {
+    "id": "n005",
+    "type": "request_rejected",
+    "priority": "normal",
+    "title": "Request Rejected",
+    "message": "Procurement request PR-2024-003 has been rejected. Please review comments",
+    "module": "procurement",
+    "resourceId": "PR-2024-003",
+    "read": true,
+    "createdAt": "2024-01-11T16:05:00Z"
+  },
+  {
+    "id": "n006",
+    "type": "system",
+    "priority": "low",
+    "title": "System Maintenance",
+    "message": "Scheduled maintenance on Jan 20, 2024 from 02:00 - 04:00 UTC",
+    "module": "system",
+    "resourceId": null,
+    "read": true,
+    "createdAt": "2024-01-13T10:00:00Z"
+  }
+]

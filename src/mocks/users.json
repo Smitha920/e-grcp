@@ -1,0 +1,62 @@
+[
+  {
+    "id": "u001",
+    "name": "Sarah Johnson",
+    "email": "smitha92005@gmail.com",
+    "password": "Admin@123",
+    "role": "admin",
+    "department": "IT",
+    "avatar": null,
+    "status": "active",
+    "lastLogin": "2024-01-15T09:30:00Z",
+    "createdAt": "2023-01-10T00:00:00Z"
+  },
+  {
+    "id": "u002",
+    "name": "Michael Chen",
+    "email": "m.chen@company.com",
+    "password": "Manager@123",
+    "role": "manager",
+    "department": "Procurement",
+    "avatar": null,
+    "status": "active",
+    "lastLogin": "2024-01-15T08:00:00Z",
+    "createdAt": "2023-02-15T00:00:00Z"
+  },
+  {
+    "id": "u003",
+    "name": "Emily Rodriguez",
+    "email": "e.rodriguez@company.com",
+    "password": "Employee@123",
+    "role": "employee",
+    "department": "Finance",
+    "avatar": null,
+    "status": "active",
+    "lastLogin": "2024-01-14T16:00:00Z",
+    "createdAt": "2023-03-01T00:00:00Z"
+  },
+  {
+    "id": "u004",
+    "name": "David Park",
+    "email": "d.park@company.com",
+    "password": "Auditor@123",
+    "role": "auditor",
+    "department": "Internal Audit",
+    "avatar": null,
+    "status": "active",
+    "lastLogin": "2024-01-13T11:00:00Z",
+    "createdAt": "2023-04-10T00:00:00Z"
+  },
+  {
+    "id": "u005",
+    "name": "Laura Kim",
+    "email": "l.kim@company.com",
+    "password": "Compliance@123",
+    "role": "compliance",
+    "department": "Legal & Compliance",
+    "avatar": null,
+    "status": "active",
+    "lastLogin": "2024-01-15T07:45:00Z",
+    "createdAt": "2023-05-20T00:00:00Z"
+  }
+]

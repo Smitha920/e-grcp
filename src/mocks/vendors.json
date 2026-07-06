@@ -1,0 +1,124 @@
+[
+  {
+    "id": "v001",
+    "name": "TechSupply Corp",
+    "category": "IT Hardware",
+    "status": "active",
+    "riskLevel": "low",
+    "country": "United States",
+    "email": "contact@techsupply.com",
+    "phone": "+1-555-0101",
+    "registrationNumber": "TSC-2019-001",
+    "taxId": "98-7654321",
+    "annualSpend": 450000,
+    "contractExpiry": "2025-06-30",
+    "certifications": ["ISO 9001", "ISO 27001"],
+    "complianceScore": 94,
+    "contacts": [
+      { "name": "James Wilson", "title": "Account Manager", "email": "j.wilson@techsupply.com", "phone": "+1-555-0102" }
+    ],
+    "documents": [
+      { "id": "d001", "name": "Service Agreement", "type": "contract", "expiry": "2025-06-30", "status": "valid" },
+      { "id": "d002", "name": "ISO 9001 Certificate", "type": "certification", "expiry": "2025-03-15", "status": "valid" }
+    ],
+    "createdAt": "2021-03-15T00:00:00Z",
+    "lastReview": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "v002",
+    "name": "Global Logistics Partners",
+    "category": "Logistics",
+    "status": "active",
+    "riskLevel": "medium",
+    "country": "Germany",
+    "email": "info@globallogistics.de",
+    "phone": "+49-30-555-0201",
+    "registrationNumber": "GLP-2018-002",
+    "taxId": "DE123456789",
+    "annualSpend": 890000,
+    "contractExpiry": "2024-12-31",
+    "certifications": ["ISO 9001"],
+    "complianceScore": 78,
+    "contacts": [
+      { "name": "Hans Mueller", "title": "Regional Director", "email": "h.mueller@globallogistics.de", "phone": "+49-30-555-0202" }
+    ],
+    "documents": [
+      { "id": "d003", "name": "Framework Agreement", "type": "contract", "expiry": "2024-12-31", "status": "expiring" },
+      { "id": "d004", "name": "GDPR Compliance Doc", "type": "compliance", "expiry": "2024-09-30", "status": "expired" }
+    ],
+    "createdAt": "2020-07-01T00:00:00Z",
+    "lastReview": "2023-10-15T00:00:00Z"
+  },
+  {
+    "id": "v003",
+    "name": "Innovative Software Solutions",
+    "category": "Software",
+    "status": "active",
+    "riskLevel": "low",
+    "country": "India",
+    "email": "sales@iss-india.com",
+    "phone": "+91-80-555-0301",
+    "registrationNumber": "ISS-2020-003",
+    "taxId": "GSTIN29ABCDE1234F",
+    "annualSpend": 320000,
+    "contractExpiry": "2025-09-30",
+    "certifications": ["ISO 9001", "CMMI Level 3", "ISO 27001"],
+    "complianceScore": 96,
+    "contacts": [
+      { "name": "Priya Sharma", "title": "Client Relationship Manager", "email": "p.sharma@iss-india.com", "phone": "+91-80-555-0302" }
+    ],
+    "documents": [
+      { "id": "d005", "name": "Master Service Agreement", "type": "contract", "expiry": "2025-09-30", "status": "valid" }
+    ],
+    "createdAt": "2022-01-01T00:00:00Z",
+    "lastReview": "2024-01-05T00:00:00Z"
+  },
+  {
+    "id": "v004",
+    "name": "Meridian Consulting Group",
+    "category": "Consulting",
+    "status": "under_review",
+    "riskLevel": "high",
+    "country": "United Kingdom",
+    "email": "contact@meridiancg.co.uk",
+    "phone": "+44-20-555-0401",
+    "registrationNumber": "MCG-2017-004",
+    "taxId": "GB987654321",
+    "annualSpend": 1200000,
+    "contractExpiry": "2024-06-30",
+    "certifications": [],
+    "complianceScore": 52,
+    "contacts": [
+      { "name": "Oliver Bennett", "title": "Partner", "email": "o.bennett@meridiancg.co.uk", "phone": "+44-20-555-0402" }
+    ],
+    "documents": [
+      { "id": "d006", "name": "Consulting Agreement", "type": "contract", "expiry": "2024-06-30", "status": "expired" }
+    ],
+    "createdAt": "2019-06-01T00:00:00Z",
+    "lastReview": "2023-06-01T00:00:00Z"
+  },
+  {
+    "id": "v005",
+    "name": "Clean Facilities Management",
+    "category": "Facilities",
+    "status": "active",
+    "riskLevel": "low",
+    "country": "United States",
+    "email": "service@cleanfm.com",
+    "phone": "+1-555-0501",
+    "registrationNumber": "CFM-2021-005",
+    "taxId": "12-3456789",
+    "annualSpend": 180000,
+    "contractExpiry": "2026-01-31",
+    "certifications": ["ISO 14001"],
+    "complianceScore": 88,
+    "contacts": [
+      { "name": "Maria Santos", "title": "Operations Manager", "email": "m.santos@cleanfm.com", "phone": "+1-555-0502" }
+    ],
+    "documents": [
+      { "id": "d007", "name": "Service Level Agreement", "type": "contract", "expiry": "2026-01-31", "status": "valid" }
+    ],
+    "createdAt": "2023-02-01T00:00:00Z",
+    "lastReview": "2024-01-10T00:00:00Z"
+  }
+]

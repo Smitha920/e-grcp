@@ -1,0 +1,123 @@
+[
+  {
+    "id": "PR-2024-001",
+    "title": "Office Laptops Q1 2024",
+    "description": "Purchase 50 Dell Latitude laptops for the engineering team expansion",
+    "requestedBy": { "id": "u003", "name": "Emily Rodriguez", "department": "Finance" },
+    "vendor": { "id": "v001", "name": "TechSupply Corp" },
+    "amount": 87500,
+    "currency": "USD",
+    "category": "IT Hardware",
+    "priority": "high",
+    "status": "approved",
+    "department": "Finance",
+    "approvals": [
+      { "level": 1, "approver": "Michael Chen", "status": "approved", "date": "2024-01-10T10:30:00Z", "comments": "Approved - budget allocated" }
+    ],
+    "attachments": [
+      { "id": "a001", "name": "Quotation_TechSupply.pdf", "size": 245000, "uploadedAt": "2024-01-08T09:00:00Z" }
+    ],
+    "comments": [
+      { "id": "c001", "user": "Michael Chen", "text": "Please confirm delivery timeline", "createdAt": "2024-01-09T14:00:00Z" },
+      { "id": "c002", "user": "Emily Rodriguez", "text": "Delivery confirmed within 3 weeks", "createdAt": "2024-01-09T15:30:00Z" }
+    ],
+    "auditLogs": [
+      { "action": "CREATED", "user": "Emily Rodriguez", "timestamp": "2024-01-08T09:00:00Z" },
+      { "action": "SUBMITTED", "user": "Emily Rodriguez", "timestamp": "2024-01-08T09:05:00Z" },
+      { "action": "APPROVED", "user": "Michael Chen", "timestamp": "2024-01-10T10:30:00Z" }
+    ],
+    "createdAt": "2024-01-08T09:00:00Z",
+    "updatedAt": "2024-01-10T10:30:00Z"
+  },
+  {
+    "id": "PR-2024-002",
+    "title": "Cloud Infrastructure Upgrade",
+    "description": "Annual subscription renewal for AWS infrastructure - production environments",
+    "requestedBy": { "id": "u003", "name": "Emily Rodriguez", "department": "Finance" },
+    "vendor": { "id": "v003", "name": "Innovative Software Solutions" },
+    "amount": 156000,
+    "currency": "USD",
+    "category": "Software",
+    "priority": "critical",
+    "status": "pending",
+    "department": "IT",
+    "approvals": [],
+    "attachments": [],
+    "comments": [],
+    "auditLogs": [
+      { "action": "CREATED", "user": "Emily Rodriguez", "timestamp": "2024-01-12T11:00:00Z" },
+      { "action": "SUBMITTED", "user": "Emily Rodriguez", "timestamp": "2024-01-12T11:10:00Z" }
+    ],
+    "createdAt": "2024-01-12T11:00:00Z",
+    "updatedAt": "2024-01-12T11:10:00Z"
+  },
+  {
+    "id": "PR-2024-003",
+    "title": "Marketing Conference Logistics",
+    "description": "Annual marketing summit logistics and venue arrangement",
+    "requestedBy": { "id": "u003", "name": "Emily Rodriguez", "department": "Marketing" },
+    "vendor": { "id": "v002", "name": "Global Logistics Partners" },
+    "amount": 45000,
+    "currency": "EUR",
+    "category": "Events",
+    "priority": "medium",
+    "status": "rejected",
+    "department": "Marketing",
+    "approvals": [
+      { "level": 1, "approver": "Michael Chen", "status": "rejected", "date": "2024-01-11T16:00:00Z", "comments": "Over budget - please revise" }
+    ],
+    "attachments": [],
+    "comments": [],
+    "auditLogs": [
+      { "action": "CREATED", "user": "Emily Rodriguez", "timestamp": "2024-01-09T10:00:00Z" },
+      { "action": "REJECTED", "user": "Michael Chen", "timestamp": "2024-01-11T16:00:00Z" }
+    ],
+    "createdAt": "2024-01-09T10:00:00Z",
+    "updatedAt": "2024-01-11T16:00:00Z"
+  },
+  {
+    "id": "PR-2024-004",
+    "title": "HR Training Platform License",
+    "description": "Annual license for LMS platform for employee training and development",
+    "requestedBy": { "id": "u003", "name": "Emily Rodriguez", "department": "HR" },
+    "vendor": { "id": "v003", "name": "Innovative Software Solutions" },
+    "amount": 28000,
+    "currency": "USD",
+    "category": "Software",
+    "priority": "low",
+    "status": "pending",
+    "department": "HR",
+    "approvals": [],
+    "attachments": [],
+    "comments": [],
+    "auditLogs": [
+      { "action": "CREATED", "user": "Emily Rodriguez", "timestamp": "2024-01-14T09:30:00Z" }
+    ],
+    "createdAt": "2024-01-14T09:30:00Z",
+    "updatedAt": "2024-01-14T09:30:00Z"
+  },
+  {
+    "id": "PR-2024-005",
+    "title": "Security Consulting Services",
+    "description": "Penetration testing and security audit for Q1 2024",
+    "requestedBy": { "id": "u003", "name": "Emily Rodriguez", "department": "IT Security" },
+    "vendor": { "id": "v004", "name": "Meridian Consulting Group" },
+    "amount": 95000,
+    "currency": "GBP",
+    "category": "Consulting",
+    "priority": "high",
+    "status": "escalated",
+    "department": "IT Security",
+    "approvals": [
+      { "level": 1, "approver": "Michael Chen", "status": "escalated", "date": "2024-01-13T14:00:00Z", "comments": "Escalated to CFO due to vendor risk concerns" }
+    ],
+    "attachments": [],
+    "comments": [],
+    "auditLogs": [
+      { "action": "CREATED", "user": "Emily Rodriguez", "timestamp": "2024-01-10T08:00:00Z" },
+      { "action": "ESCALATED", "user": "Michael Chen", "timestamp": "2024-01-13T14:00:00Z" }
+    ],
+    "createdAt": "2024-01-10T08:00:00Z",
+    "updatedAt": "2024-01-13T14:00:00Z"
+  }
+]

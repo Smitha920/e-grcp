@@ -1,0 +1,42 @@
+[
+  {
+    "id": "RPT-001",
+    "title": "Q4 2023 Procurement Summary",
+    "type": "procurement",
+    "generatedBy": "Michael Chen",
+    "generatedAt": "2024-01-05T09:00:00Z",
+    "status": "ready",
+    "filters": { "dateRange": "2023-Q4", "department": "all" },
+    "summary": { "totalRequests": 48, "approved": 39, "rejected": 6, "pending": 3, "totalValue": 3450000 }
+  },
+  {
+    "id": "RPT-002",
+    "title": "Vendor Risk Assessment - Jan 2024",
+    "type": "vendor",
+    "generatedBy": "Laura Kim",
+    "generatedAt": "2024-01-10T11:00:00Z",
+    "status": "ready",
+    "filters": { "riskLevel": "high", "status": "all" },
+    "summary": { "totalVendors": 5, "highRisk": 1, "mediumRisk": 1, "lowRisk": 3 }
+  },
+  {
+    "id": "RPT-003",
+    "title": "Compliance Status Report - Q4 2023",
+    "type": "compliance",
+    "generatedBy": "Laura Kim",
+    "generatedAt": "2024-01-08T14:00:00Z",
+    "status": "ready",
+    "filters": { "period": "2023-Q4" },
+    "summary": { "totalItems": 42, "compliant": 35, "nonCompliant": 7, "complianceRate": "83.3%" }
+  },
+  {
+    "id": "RPT-004",
+    "title": "Annual Risk Register 2023",
+    "type": "risk",
+    "generatedBy": "David Park",
+    "generatedAt": "2024-01-03T10:00:00Z",
+    "status": "ready",
+    "filters": { "year": "2023" },
+    "summary": { "totalRisks": 28, "critical": 4, "high": 9, "medium": 11, "low": 4 }
+  }
+]
